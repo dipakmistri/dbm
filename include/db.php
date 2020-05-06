@@ -7,7 +7,7 @@
         //                             sql server name           databae name
         define('SERVER',"sqlsrv:Server=DESKTOP-AI1N279\SQLEXPRESS;Database=HRMS");
         define('USERNAME','sa');//username
-        define('PASSWORD','1234');//passweord
+        define('PASSWORD','1234');//password
         
         try{
             $this->con = new PDO(SERVER, USERNAME, PASSWORD);
