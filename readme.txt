@@ -1,3 +1,3 @@
-creatae database name HRMS
+create database name HRMS
 copy scripts from HRMS.sql
-execute these lines in HRMS databasea
+execute these lines in HRMS database
