@@ -1,19 +1,4 @@
 
-    <script>
-      $(document).ready(function(){
-        $("#add").click(function(){
-          $("#state_master").hide();
-          $("#add_state_city").show();
-          $("#back").show();
-        });
-        $("#back").click(function(){
-          $("#state_master").show();
-          $("#add_state_city").hide();
-          $("#back").hide();
-        });
-      });
-      </script>  
-
 
       <div class="container-fluid mt-3">
         <div id="state_master">
@@ -429,6 +414,21 @@
         </div>
       
       </div>
+
+      <script>
+      $(document).ready(function(){
+        $("#add").click(function(){
+          $("#state_master").hide();
+          $("#add_state_city").show();
+          $("#back").show();
+        });
+        $("#back").click(function(){
+          $("#state_master").show();
+          $("#add_state_city").hide();
+          $("#back").hide();
+        });
+      });
+      </script>  
 
         
 

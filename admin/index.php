@@ -8,6 +8,11 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css">
     <link rel="stylesheet" href="../css/bootnavbar.css">
+
+    
+    <script src="../js/jquery-3.4.1.min.js"></script>
+
+   
 </head>
 <body>
     <?php include_once "include/header.php"?>
@@ -29,14 +34,9 @@
 
 
 
-
-
-
-    <script src="../js/jquery-3.4.1.min.js"></script>
     <script src="../js/popper.min.js"></script>
     <script src="../js/bootstrap.min.js"></script>
     <script src="../js/script.js"></script>
-
     <script src="../js/bootnavbar.js" ></script>
     <script>
         $(function () {

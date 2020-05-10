@@ -19,9 +19,9 @@
        
         <ul class="dropdown-menu">
         
-            <li><a class="dropdown-item" href="#"> <i class="fas fa-tools"></i> Company Information</a></li>
-            <li><a class="dropdown-item" href="#"> <i class="fas fa-tools"></i> Change password</a></li>
-            <li><a class="dropdown-item" href="#"> <i class="fas fa-tools"></i> Company Generel Setting</a></li>
+            <li><a class="dropdown-item" href="index.php?p=control_panel/update_company_detail"> <i class="fas fa-tools"></i> Company Information</a></li>
+            <li><a class="dropdown-item" href="index.php?p=control_panel/change_password"> <i class="fas fa-tools"></i> Change password</a></li>
+            <li><a class="dropdown-item" href="index.php?p=control_panel/home_general_setting"> <i class="fas fa-tools"></i> Company Generel Setting</a></li>
             <li><a class="dropdown-item" href="#"> <i class="fas fa-tools"></i> Professional Tax Setting</a></li>
 
             <li class="nav-link dropdown">
@@ -84,7 +84,7 @@
                         <a class="dropdown-item" href="#"> <i class="fas fa-file"></i> Job Master <i class="fas fa-caret-down"></i></a>
                         <ul class="dropdown-menu">
                             <li><a class="dropdown-item" href="index.php?p=job_master/Master_State"> <i class="fas fa-file"></i> State/City Master</a></li>
-                            <li><a class="dropdown-item" href="index.php?p=job_master/Master_Business_Segment"> <i class="fas fa-file"></i> Branch Master</a></li>
+                            <li><a class="dropdown-item" href="#"> <i class="fas fa-file"></i> Branch Master</a></li>
                             <li><a class="dropdown-item" href="index.php?p=job_master/Master_SubBranch"> <i class="fas fa-file"></i> Sub Branch Master</a></li>
                             <li><a class="dropdown-item" href="index.php?p=job_master/Master_Department"> <i class="fas fa-file"></i> Department Master</a></li>
                             <li><a class="dropdown-item" href="index.php?p=job_master/Master_Designation"> <i class="fas fa-file"></i> Designation  Master</a></li>
@@ -145,8 +145,8 @@
                     <li class="nav-item dropdown">
                         <a class="dropdown-item" href="#"> <i class="fas fa-file"></i> Other master <i class="fas fa-caret-down"></i></a>
                         <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#"> <i class="fas fa-file"></i> Country Master</a></li>
-                            <li><a class="dropdown-item" href="#"> <i class="fas fa-file"></i> Cost Center Master</a></li>
+                            <li><a class="dropdown-item" href="index.php?p=other/Master_Location"> <i class="fas fa-file"></i> Country Master</a></li>
+                            <li><a class="dropdown-item" href="index.php?p=other/Master_CostCenter"> <i class="fas fa-file"></i> Cost Center Master</a></li>
                             <li><a class="dropdown-item" href="#"> <i class="fas fa-file"></i> Insurance/Medical Master</a></li>
                             <li><a class="dropdown-item" href="#"> <i class="fas fa-file"></i> Organization Policy</a></li>
                             <li><a class="dropdown-item" href="#"> <i class="fas fa-file"></i> Project Master</a></li>
